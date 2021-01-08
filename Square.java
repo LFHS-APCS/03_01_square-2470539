@@ -1,7 +1,8 @@
 public class Square{
   private double side;
   public final int MAX_SIDE_LENGTH = 10;
-  public Square(double side){
+  public Square(double aSide){
+    side = aSide;
   }
   public double getSide(){
     return side;
